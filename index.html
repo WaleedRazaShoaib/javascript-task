@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        #userInformation {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="userInformation">
+        <h2>User Information Form</h2>
+        
+        
+        <script>
+
+            function getUserInformation() {
+                var name = prompt("Enter your name:");
+                var fatherName = prompt("Enter your father's name:");
+                var address = prompt("Enter your address:");
+                var mobileNumber = prompt("Enter your mobile number:");
+
+
+                document.write("<p><strong>Name:</strong> " + name + "</p>");
+                document.write("<p><strong>Father's Name:</strong> " + fatherName + "</p>");
+                document.write("<p><strong>Address:</strong> " + address + "</p>");
+                document.write("<p><strong>Mobile Number:</strong> " + mobileNumber + "</p>");
+            }
+
+
+            getUserInformation();
+        </script>
+
+    </div>
+
+</body>
+
+</html>
