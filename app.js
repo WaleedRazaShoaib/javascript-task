@@ -4,7 +4,7 @@ const employees = [
         age: 18,
         salary: 5000
     },
-    
+
     {
         name: 'ali',
         age: 17,
@@ -17,7 +17,7 @@ const employees = [
     },
     {
         name: 'waleed',
-         age: 18,
+        age: 18,
         salary: 60000
     },
     {
@@ -50,20 +50,30 @@ const employees = [
         age: 36,
         salary: 65000
     }
-    ];
-    
-        // Function to populate table with employee data
-        function populateTable() {
-            const tableBody = document.getElementById('employeeTable');
-    
-            for (let i = 0; i < employees.length; i++) {
-                const employee = employees[i];
-                const row = tableBody.insertRow();
-                row.innerHTML = `<td>${employee.name}</td>
+];
+
+// Function to populate table with employee data
+function populateTable() {
+    const tableBody = document.getElementById('employeeTable');
+
+    for (let i = 0; i < employees.length; i++) {
+        const employee = employees[i];
+        const row = tableBody.insertRow();
+        row.innerHTML = `<td>${employee.name}</td>
                 <td>${employee.age}</td>
                 <td>${employee.salary}</td>`;
-            }
-        }
-    
-        // Call the function to populate the table
-        populateTable();
+    }
+}
+
+// Call the function to populate the table
+populateTable();
+
+
+
+
+
+
+
+let x = 10;
+x += 5;
+let text = "Hello"; text += " World";
