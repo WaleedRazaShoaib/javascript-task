@@ -77,3 +77,5 @@ populateTable();
 let x = 10;
 x += 5;
 let text = "Hello"; text += " World";
+
+let o = 10;
