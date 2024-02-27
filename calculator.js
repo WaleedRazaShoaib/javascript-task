@@ -1,4 +1,10 @@
-  // Function to add two numbers
+
+var name = prompt("What is your name?");
+
+// Display a greeting message with the entered name
+alert("Hello, " + name + "! Welcome to JavaScript!"); 
+ 
+ // Function to add two numbers
   function add(x, y) {
     return x + y;
   }
