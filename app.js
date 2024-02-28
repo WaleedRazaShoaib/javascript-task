@@ -79,3 +79,7 @@ x += 5;
 let text = "Hello"; text += " World";
 
 let o = 10;
+
+
+var str = "Vivek Singh Bisht"; //using double quotes
+var str2 = 'John Doe'; //using single quotes
