@@ -83,3 +83,8 @@ let o = 10;
 
 var str = "Vivek Singh Bisht"; //using double quotes
 var str2 = 'John Doe'; //using single quotes
+
+
+
+var x = 3; //without decimal
+var y = 3.6; //with decimal
