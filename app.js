@@ -87,5 +87,5 @@ var str2 = 'John Doe'; //using single quotes
 
 
 if (str === str2){
-    alert()
+    alert("u go noe")
 }
