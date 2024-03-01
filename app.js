@@ -86,5 +86,6 @@ var str2 = 'John Doe'; //using single quotes
 
 
 
-var x = 3; //without decimal
-var y = 3.6; //with decimal
+if (str === str2){
+    alert()
+}
