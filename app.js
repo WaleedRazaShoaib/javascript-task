@@ -92,3 +92,10 @@ if (str === str2){
 else{
     alert("wow")
 }
+
+if (x === o){
+    alert("u go noe")
+}
+else{
+    alert("wow")
+}
