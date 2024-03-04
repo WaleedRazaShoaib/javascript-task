@@ -8,5 +8,4 @@ var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
 
 
 
-console.log(days)
-console.log(hours)
+console.log(seconds)
