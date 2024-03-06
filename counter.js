@@ -7,6 +7,3 @@ var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
 var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
 
 
-
-console.log(seconds)
-console.log(minutes)

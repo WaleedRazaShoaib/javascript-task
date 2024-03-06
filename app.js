@@ -99,3 +99,4 @@ if (x === o){
 else{
     alert("wow")
 }
+console.log(str)
