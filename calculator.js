@@ -1,8 +1,8 @@
 
-var name = prompt("What is your name?");
+var name2 = prompt("What is your name?");
 
 // Display a greeting message with the entered name
-alert("Hello, " + name + "! Welcome to JavaScript!"); 
+alert("Hello, " + name2 + "! Welcome to JavaScript!"); 
  
  // Function to add two numbers
   function add(x, y) {

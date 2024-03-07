@@ -99,7 +99,6 @@ if (x === o){
 else{
     alert("wow")
 }
-console.log(str)
-console.log(str2)
-console.log("hello")
+
+
 
