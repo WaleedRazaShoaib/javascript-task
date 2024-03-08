@@ -23,7 +23,8 @@ alert("Hello, " + name2 + "! Welcome to JavaScript!");
   function divide(x, y) {
     return x / y;
   }
-  
+console.log(name2)
+
   // Get user input for numbers and operation
   var num1 = parseFloat(prompt("Enter the first number:"));
   var num2 = parseFloat(prompt("Enter the second number:"));
