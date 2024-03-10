@@ -7,3 +7,5 @@ var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
 var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
 
 
+document.write(days + "<br>") 
+document.write(hours + "<br>") 
