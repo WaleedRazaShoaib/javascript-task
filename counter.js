@@ -15,6 +15,7 @@ switch (expr) {
     console.log('Oranges are $0.59 a pound.');
     break;
   case 'Mangoes':
+    break;
   case 'Papayas':
     console.log('Mangoes and papayas are $2.79 a pound.');
     // Expected output: "Mangoes and papayas are $2.79 a pound."
